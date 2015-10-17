@@ -1,0 +1,369 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+	
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+	.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+.case
+{
+	display: block;
+	width: 98%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.logo
+{
+	display: block;
+	width: 1%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.logo_img
+{
+	position: absolute;
+	min-height: 100%;
+}
+
+.logo_img img
+{
+	position: absolute;
+	top: 15px;
+	width: 120px;
+	left: 60px;
+}
+
+.mailto
+{
+	display: none;
+}
+
+
+.case_moreinfo
+{
+position: absolute;
+bottom: 0;
+left: 5px;
+}
+
+.whatsup
+{
+	display: none;
+
+}
+
+.title
+{
+	font-weight: 600;
+	color: black;
+	color: #4d110f;
+}
+
+.headline
+{
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.subheadline
+{
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.white_button
+{
+	margin-left: 5px;
+  margin-top: 20px;
+/*  transform: none;
+  transition-property: none;*/
+}
+
+.more
+{
+  opacity: 1;
+  margin-left: 20px;
+ margin-top: 35px;
+}
+
+
+.description
+{
+	display: none;
+}
+
+.copyrait
+{
+	margin-top: 70px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+/*Кнопки для переключение слайдов*/
+
+.top_button
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  bottom: 110px;
+  right: 20px;
+  background-image: url(../img/top_button.png);
+  background-size: 60%;
+}
+
+.bottomn_button
+{
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  bottom: 70px;
+  right: 20px;
+  background-image: url(../img/bottom_button.png);
+  background-size: 50%;
+}
+
+
+.toggle_mnu {
+  width: 40px;
+  height: 40px;
+   left: 15px;
+  top: 25px;
+}
+
+.sandwich {
+  width: 20px;
+  height: 20px;
+  top: 0px;
+}
+
+.sw-topper {
+  top: 0;
+  width: 20px;
+  height: 3px;}
+
+.sw-bottom {
+  width: 20px;
+  height: 3px;
+  top: 6.6px;
+ }
+
+.sw-footer {
+  width: 20px;
+  height: 3px;
+  top: 13.5px;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+.container
+{
+	width: 60%;
+	min-height: 200px;
+}
+
+.case
+{
+	display: block;
+	width: 98%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.logo
+{
+	display: block;
+	width: 1%;
+	height: 100%;
+	position: absolute;
+
+}
+
+.logo_img
+{
+	position: absolute;
+	min-height: 100%;
+}
+
+.logo_img img
+{
+	position: absolute;
+	top: 15px;
+	width: 120px;
+	left: 60px;
+}
+
+.mailto
+{
+	display: none;
+}
+
+
+.case_moreinfo
+{
+position: absolute;
+bottom: 0;
+left: 5px;
+}
+
+.whatsup
+{
+	display: none;
+
+}
+
+.title
+{
+	font-weight: 600;
+	color: black;
+	color: #4d110f;
+}
+
+.headline
+{
+	font-size: 25px;
+	margin-top: 20px;
+}
+
+.subheadline
+{
+	margin-top: 10px;
+	font-size: 25px;
+}
+
+.white_button
+{
+	margin-left: 5px;
+  margin-top: 20px;
+/*  transform: none;
+  transition-property: none;*/
+}
+
+.more
+{
+  opacity: 1;
+  margin-left: 20px;
+ margin-top: 35px;
+}
+
+
+.description
+{
+	display: none;
+}
+
+.copyrait
+{
+	margin-top: 70px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+/*Кнопки для переключение слайдов*/
+
+.top_button
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  bottom: 110px;
+  right: 20px;
+  background-image: url(../img/top_button.png);
+  background-size: 60%;
+}
+
+.bottomn_button
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 20px;
+  background-image: url(../img/bottom_button.png);
+  background-size: 60%;
+}
+
+
+.toggle_mnu {
+  width: 40px;
+  height: 40px;
+   left: 15px;
+  top: 25px;
+}
+
+.sandwich {
+  width: 20px;
+  height: 20px;
+  top: 0px;
+}
+
+.sw-topper {
+  top: 0;
+  width: 20px;
+  height: 3px;}
+
+.sw-bottom {
+  width: 20px;
+  height: 3px;
+  top: 6.6px;
+ }
+
+.sw-footer {
+  width: 20px;
+  height: 3px;
+  top: 13.5px;
+}
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+	
+
+}
